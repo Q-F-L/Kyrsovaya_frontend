@@ -1,0 +1,480 @@
+.main-breadcrums a{
+    color: #888;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+}
+
+.main-breadcrums a::after{
+    color: #999;
+    content: " > ";
+}
+
+.main-breadcrums a:last-child::after{
+    content: "";
+}
+
+.tyr-titel samp {
+    color: #662170;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tyr-titel{
+    margin-top: 15px;
+}
+
+.tyr-topic {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.tyr-topic-btn {
+    color: rgb(94, 94, 94);
+    font-size: 12px;
+    border: 1px solid rgb(94, 94, 94);
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 4px;
+    width: fit-content;
+    padding-bottom: 4px;
+}
+
+.active {
+    color: white;
+    border: none;
+    background: #b0cb1e;
+}
+
+main {
+    font-family: sans-serif;
+}
+
+.tur-discription {
+    width: 550px;
+}
+
+.panel {
+    padding-left: 10px;
+}
+
+.how samp:first-child {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.how samp:last-child {
+    font-size: 15px;
+}
+
+.how {
+    margin-top: 60px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.how samp {
+    width: 700px;
+}
+
+.panel-discription {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.pd {
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 35% 70% 20%;
+}
+
+.pd-btn {
+    cursor: pointer;
+}
+
+.pd-titel {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pd-img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.pd-titel div {
+    font-size: 17px;
+}
+
+.pd-discription {
+    font-size: 14px;
+    color: rgb(151, 151, 151);
+}
+
+.how samp:last-child a {
+    color: black;
+}
+
+.pd-btn-titel {
+    font-size: 13px;
+    text-align: center;
+    background-color: rgba(243, 243, 243, 0.918);
+}
+
+.galereay {
+    margin-top: 80px;
+}
+
+.galereay-titel {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.galereay-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 940px;
+}
+
+.galereay-img img {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 230px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tyr-program {
+    margin-top: 60px;
+}
+
+.tyr-program-titel {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tyr-program-discription samp {
+    font-size: 15px;
+}
+
+.tyr-program-discription {
+    display: flex;
+    flex-direction: column;
+}
+
+.tyr-conditions {
+    margin-top: 60px;
+}
+
+.tyr-conditions-titel {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.panel-li-icon img {
+    width: 25px;
+}
+
+.panel-li-icon {
+    padding-right: 10px;
+    padding-top: 2px;
+}
+
+.panel-ul li {
+    display: flex;
+}
+
+.accordion {
+    width: 500px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 17px;
+    padding-bottom: 10px;
+    box-shadow: 0px 1px 0px 0px rgb(151, 151, 151);
+}
+
+.tyr-conditions-discription{
+    
+}
+
+.war{
+    margin-top: 60px;
+}
+
+.war-inf-titel{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.war-inf-list{
+    margin-top: 40px;
+    padding-left: 15px;
+}
+
+.war-inf-list-li1{
+    font-size: 17px;
+    font-weight: bold;   
+    margin-bottom: 10px;
+}
+
+.war-inf-list-li2{
+    margin-left: 20px;
+    width: 400px;
+}
+
+.war-inf-list-li2 ul li{
+    margin-left: 20px;
+}
+
+.war-li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.tyragent{
+    padding-top: 20px;
+}
+
+.tyragent-titel{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.tyragent-row{
+    width: fit-content;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tyragent-block-img{
+    height: 300px;
+}
+
+.tyragent-block{
+    margin-right: 15px;
+}
+
+.tyragent-panel{
+    border: 1px solid rgb(179, 179, 179);
+    padding: 30px 100px 30px 100px;
+    text-align: center;
+}
+
+.tp-count{
+    color: rgb(140, 140, 140);
+    font-size: 15px;
+}
+
+.tyragent-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bg-orange{
+    background-color: rgb(253, 232, 205);
+    width: fit-content;
+    padding: 30px 50px 30px 50px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.btn-orage{
+    background-color: rgb(255, 114, 63);
+    color: white;
+    padding: 20px 30px 20px 30px;
+    width: fit-content;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.zayavka{
+    margin-right: 15px;
+}
+
+.flex-row{
+    display: flex;
+}
+
+.zayavka-titel{
+    width: 250px;
+    font-size: 22px;
+}
+
+.zayavka-dis{
+    width: 250px;
+    font-size: 19px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.menu-bronirovanie-tyr{
+    background: white;
+    box-shadow: 0px 0px 10px 1px #888;
+    width: fit-content;
+    margin-left: 51%;
+    padding: 25px 15px 25px 15px;
+    border-radius: 7px;
+    width: 400px;
+}
+
+.text-alignc{
+    text-align: center;
+}
+
+.font-s{
+    font-size: 18px;
+    padding-top: 8px;
+}
+
+.posA{
+    position: fixed;
+    top: 300px;
+}
+
+.data-block{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.line-grey{
+    color: #888;
+}
+
+.select-data{
+    padding: 10px 30px 10px 30px;
+    border: none;
+    border-radius: 6px;
+    background: rgb(232, 232, 232);
+    font-size: 17px;
+}
+
+.grey-text div:last-child{
+    color: #888;
+    font-size: 12px;
+    min-width: 50px;
+    max-width: fit-content;
+    padding-left: 5px;
+}
+
+.flex-block-sb{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.flex-block{
+    display: flex;
+    width: fit-content;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon-size{
+    width: 20px;
+    padding-left: 5px;
+}
+
+.price-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.price-day{
+    font-size: 14px;
+}
+
+.btn-grey{
+    display: flex;
+    justify-content: center;
+    background: rgb(213, 221, 221);
+    color: rgb(170, 170, 170);
+    border-radius: 6px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.total-price{
+    font-size: 24px;
+    color: blueviolet;
+    margin: 0 auto;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+.margin-tb{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.counter-block{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 8px;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+
+.counter-strelka{
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(150, 150, 150);
+}
+
+.btn-lightgreen{
+    background: rgb(145, 199, 57);
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.small-rext-grey{
+    text-align: center;
+    color: rgb(169, 169, 169);
+    font-size: 12px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.flex-block-c{
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}

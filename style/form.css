@@ -1,0 +1,208 @@
+.btn-sm{
+    font-family:sans-serif;
+    color: black;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.sigup-form-titel{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.sigup-form-ask{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.sigup-form-ask a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.form-block-input{
+    margin-top: 20px;
+    display: flex;
+}
+
+.form-block-input>*{
+    flex: 1 1 200px;
+}
+
+.form-block{
+    display: flex;
+    flex-direction: column;
+}
+
+.form{
+    border: 1px solid rgb(185, 185, 185);
+    width: 450px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    font-family:sans-serif;
+}
+
+.input-sm{
+    border-radius: 3px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.input-sm::placeholder{
+    color: rgb(156, 156, 156);
+}
+
+.label{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    color: rgb(160, 160, 160);
+    font-family:sans-serif;
+    font-size: 12px;
+}
+
+.password:last-child{
+    margin-top: 20px;
+}
+
+.complete{
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.confirm{
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.active{
+    background: #4CB5AB;
+    border: none;
+    color: white;
+}
+
+.sigup-img img{
+    width: 262px;
+    margin-left: 10px;
+}
+
+.form-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.sigup-img-titel{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sigup-img-ask{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.sigup-block{
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    width: 240px;
+    top: 10px;
+    left: 20px;
+}
+
+.sigup-img{
+    position: relative;
+}
+
+.sigin{
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.form-sigin{
+    width: 460px;
+}
+
+.form-block-sigin{
+    display: flex;
+    flex-direction: column;
+}
+
+.sigin-btn{
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}   
+
+.margin-input{
+    margin-bottom: 20px;
+}
+
+.sigin-checkbox{
+    padding-left: 10px;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+
+#form{
+    font-family: sans-serif;
+}
+
+.label a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.label a:hover{
+    text-decoration:underline;
+}
+
+.sigin-notremeber a{
+    color: rgb(160, 160, 160);
+    font-size: 13px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.sigin-notremeber{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sigin-notremeber a:hover{
+    text-decoration: underline;
+}
+
+.confirm-sigin{
+    font-size: 13px;
+}
+
+.grey-border{
+    border: 1px solid rgb(160, 160, 160);
+}

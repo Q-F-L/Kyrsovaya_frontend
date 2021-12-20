@@ -1,0 +1,150 @@
+.bg-img{
+    background-image: url(https://youtravel.me/static/i/about/header-1-v2.jpg);
+    background-repeat: no-repeat;
+    width: 1900px;
+}
+
+.largeLine{
+    width: 100%;
+}
+
+.titel{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #662170;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.text-black{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    grid-row: 3;
+    grid-column: 2;
+    margin-top: 20px;
+}
+
+.text-black + div{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    grid-row: 4;
+    grid-column: 2;
+    margin-top: 20px;
+}
+
+.titel-black{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.main-breadcrums a{
+    color: #888;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.main-breadcrums a::after{
+    color: #999;
+    content: " > ";
+}
+
+.main-breadcrums a:last-child::after{
+    content: "";
+}
+
+.img-shadow img{
+    box-shadow: -40px -30px 0px 0px #b0cb1f;
+    
+    grid-row: 1 / -1;
+    grid-column: 1;
+}
+
+.grid-block{
+    margin-top: 100px;
+    width: 820px;
+    display: grid;
+    gap: 20px;
+}
+
+.div-width{
+    grid-row: 1 / -1;
+    grid-column: 2;
+}
+
+.center-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.big-text-color{
+    font-size: 25px;
+    width: 50%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #662170;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.grid-block-2{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+    column-gap: 40px;
+}
+
+.blog .title{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.blog .text{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.ex1{
+    grid-column: 1;
+    grid-row: 1;
+}
+.ex2{
+    grid-column: 2;
+    grid-row: 1;
+}
+.ex3{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.ex4{
+    grid-column: 1;
+    grid-row: 2;
+}
+.ex5{
+    grid-column: 2;
+    grid-row: 2;
+}
+.ex6{
+    grid-column: 3;
+    grid-row: 2;
+}

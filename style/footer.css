@@ -1,0 +1,98 @@
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-top: 50px;
+    background: linear-gradient(180deg, rgba(102, 33, 112, .38) 0, rgba(102, 33, 112, 0) 100%), rgba(0, 0, 0, .8);
+    height: fit-content;
+}
+
+.footer-pay{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.footer-pay img{
+    padding-right: 10px;
+}
+
+.footer-cop{
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-soc{
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.soc-icon{
+    padding-right: 10px;
+}
+
+.footer-discription{
+    display: flex;
+    color: white;
+}
+
+.footer-line{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.footer-save{
+    display: flex;
+    padding-top: 10px;
+}
+
+.footer-save img{
+    padding-right: 10px;
+}
+
+.discription-list samp:first-child{
+    font-size: 17px;
+}
+
+.footer-menu-nav{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+}
+
+.footer-menu-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+
+.footer-youtravel{
+    width: 250px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.discription-list-last-child{
+    width: 200px;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-top: 3px;
+}
+
+.footer-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-discription-list{
+    color: white;
+}
